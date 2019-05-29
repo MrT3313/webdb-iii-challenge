@@ -1,3 +1,5 @@
+// const DB_knexVersion = require('./dbConfig')
+
 module.exports = {
     development: {
         client: 'sqlite3',
