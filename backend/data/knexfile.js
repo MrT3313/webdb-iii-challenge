@@ -4,12 +4,7 @@ module.exports = {
         connection: {
             filename: './data/lambda.db3'
         },
-        useNullAsDefault: true
-    },
-    staging: {
+        useNullAsDefault: true,
 
     },
-    production: {
-        
-    }
 }
