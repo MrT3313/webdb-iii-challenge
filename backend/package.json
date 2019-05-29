@@ -13,6 +13,7 @@
         "sqlite3": "^4.0.8"
     },
     "devDependencies": {
+        "knex-cleaner": "^1.1.4",
         "nodemon": "^1.18.9"
     }
 }

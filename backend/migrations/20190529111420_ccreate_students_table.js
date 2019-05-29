@@ -6,7 +6,7 @@ exports.up = function(knex, Promise) {
             .increments()
         // Name
         table
-            .string('name, 225')
+            .string('name')
             .notNullable()
         // Foreign Key -> cohortID
         table

@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
 
         // Name Column
         table
-            .string('name, 225')
+            .string('name')
             .notNullable()
         // Created & Updated @
         table
