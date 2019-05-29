@@ -1,6 +1,6 @@
 {
-    "name": "Web DB 3",
-    "version": "1.1.0",
+    "name": "WebDB 3",
+    "version": "1.0.0",
     "private": true,
     "main": "index.js",
     "scripts": {
@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "express": "^4.16.4",
+        "knex": "^0.16.5",
         "sqlite3": "^4.0.8"
     },
     "devDependencies": {
