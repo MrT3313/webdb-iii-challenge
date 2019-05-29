@@ -2,6 +2,8 @@
     const express = require('express')
 
 // ROUTERS
+    const cohortsRouter = require('./cohortsRouter')
+    // const studentsRouter = require('./studentsRouter')
 
 // SERVER
     const server = express()
@@ -13,6 +15,8 @@
     })
 
 // INDIVIDUAL ROUTES
+    server.use('./api/cohorts', cohortsRouter)
+    // server.use('./api/students', studentsRouter)
 
 // EXPORTS
 module.exports = server
