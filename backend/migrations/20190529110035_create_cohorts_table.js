@@ -9,7 +9,7 @@ exports.up = function(knex, Promise) {
         table
             .string('name, 225')
             .notNullable()
-        // created_at & updated_at
+        // Created & Updated @
         table
             .timestamps(true, true)
     })
