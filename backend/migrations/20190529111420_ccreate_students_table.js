@@ -13,7 +13,7 @@ exports.up = function(knex, Promise) {
             .integer('cohort_id')
             .unsigned()
             // Where is it looking
-                .references('id').inTale('cohorts')
+                .references('id').inTable('cohorts')
             // Update & Delete Actions
             .onDelete('CASCADE').onUpdate('CASCADE')
         // Created & Updated @
